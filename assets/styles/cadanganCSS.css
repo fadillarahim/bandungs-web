@@ -37,3 +37,48 @@ nav{
 nav ul{
     text-align: right;
 }
+
+.container{
+    display: flex;
+
+    width: 800px;
+    height: 500px;
+    margin: 0;
+    background-color: aquamarine;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.box{
+    background-color: burlywood;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+
+.satu{
+    flex-grow: 1;
+}
+
+.dua{
+    flex-grow: 2;
+}
+
+.tiga{
+    flex-grow: 1;
+}
+
+.kotak{
+    display: flex;
+    flex-direction: row;
+
+    width: 600px;
+    height: 300px;
+    background-color: bisque;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
