@@ -82,3 +82,18 @@ nav ul{
     border: 3px solid black;
     border-radius: 10px;
 }
+
+.click{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #00a2c6;
+    margin: 20px ;
+    border-radius: 14px;
+    
+}
+
+.click:hover{
+    background-color: antiquewhite;
+    
+}
